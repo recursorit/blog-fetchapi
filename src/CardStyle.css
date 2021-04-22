@@ -1,0 +1,50 @@
+.externalcard:hover{
+box-shadow:5px 10px 20px 1px rgba(0, 0,0,0.253)!important ;
+cursor: pointer;
+}
+
+.cardtitle{
+font-weight: 700;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 100px;
+    color: rgb(16, 255, 235);
+
+}
+.spanheading{
+    font-size: 21px;
+    font-weight: 400;
+    color: white;
+}
+
+.bannerimg{
+    background-image: url('./banner2.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     /* width: 500%; */
+    height: 800px; 
+    padding-top: 260px;
+}
+
+.navlink{
+
+    font-size: 22px;
+}
+.px-3
+{
+    color:white!important;
+}
+.px-3:hover
+{
+    color: rgb(16, 255, 235)!important;
+}
+
+.logostyle{
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255)!important;
+}
