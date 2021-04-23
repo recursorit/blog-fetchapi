@@ -3,7 +3,8 @@ import axios from 'axios'
 import { useState, useEffect } from 'react'
 import { Card } from 'react-bootstrap'
 import CardColumns from 'react-bootstrap/CardColumns'
-import './CardStyle.css';
+import ReactReadMoreReadLess from "react-read-more-read-less";
+
 const cardStyle = {
     width: '22rem',
     height: '30rem',
@@ -30,6 +31,7 @@ const Data = () => {
 
     return (
         <div className='container '>
+            <h1 className='text-center mt-3 text-primary'>...</h1>
             <div className='row'>
                 <CardColumns>
                     <div className='col-12 col-lg-6 col-md-6 '>
@@ -42,9 +44,14 @@ const Data = () => {
                                     <Card.Body>
                                         <Card.Title className='cardtitle py-3 text-capitalize '>{post.title}</Card.Title>
                                         <Card.Text className='cardbody'>
-                                            {post.body}
+                                            <ReactReadMoreReadLess
+                                                charLimit={50}
+                                                readMoreText={"Read more ▼"}
+                                                readLessText={"Read less ▲"}
+                                            >
+                                                {post.body}
+                                            </ReactReadMoreReadLess>
                                         </Card.Text>
-                                        {/* <Button variant="primary">Go somewhere</Button> */}
                                     </Card.Body>
                                 </Card>)
                             })}

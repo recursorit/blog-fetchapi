@@ -25,7 +25,7 @@ font-weight: 700;
     background-repeat: no-repeat;
     background-size: cover;
      /* width: 500%; */
-    height: 800px; 
+    height: 700px; 
     padding-top: 260px;
 }
 
@@ -47,4 +47,15 @@ font-weight: 700;
     font-family: 'Orbitron', sans-serif;
     font-size: 30px;
     color: rgb(255, 255, 255)!important;
+}
+
+.bgfooter{
+    font-size: 20px;
+    color: white;
+    background-color:rgb(65, 64, 64);
+    height: 400px;
+}
+
+.copyright{
+    background-color:rgb(124, 124, 124);
 }
