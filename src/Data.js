@@ -30,11 +30,12 @@ const Data = () => {
     }, [])
 
     return (
+
         <div className='container '>
             <h1 className='text-center mt-3 text-primary'>...</h1>
             <div className='row'>
                 <CardColumns>
-                    <div className='col-12 col-lg-6 col-md-6 '>
+                    <div className='col-12 col-lg-6 col-md-6 mediacard'>
                         {
                             posts.map((post, id) => {
                                 // console.log(id)
@@ -46,9 +47,10 @@ const Data = () => {
                                         <Card.Text className='cardbody'>
                                             <ReactReadMoreReadLess
                                                 charLimit={50}
-                                                readMoreText={"Read more ▼"}
-                                                readLessText={"Read less ▲"}
+                                                readMoreText={"Click more ▼"}
+                                                readLessText={"Click less ▲"}
                                             >
+                                          
                                                 {post.body}
                                             </ReactReadMoreReadLess>
                                         </Card.Text>

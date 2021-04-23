@@ -5,13 +5,19 @@ import Top from './Top'
 import Bottom from './Bottom';
 import Banner from './Banner';
 import './CardStyle.css';
+import ScrollToTop from "react-scroll-to-top"
+
+
 function App() {
   return (
     <div>
-      <Top />
-      <Banner/>
-      <Data />
-      <Bottom />
+     
+              <ScrollToTop smooth />
+              <Top />
+              <Banner />
+              <Data />
+              <Bottom />
+         
     </div>
   );
 }

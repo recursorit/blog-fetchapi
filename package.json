@@ -16,7 +16,9 @@
     "react-dom": "^17.0.2",
     "react-fontawesome": "^1.7.1",
     "react-read-more-read-less": "^1.0.7",
+    "react-responsive": "^8.2.0",
     "react-scripts": "4.0.3",
+    "react-scroll-to-top": "^1.0.5",
     "react-show-more-text": "^1.4.6",
     "web-vitals": "^1.1.1"
   },

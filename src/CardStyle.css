@@ -59,3 +59,100 @@ font-weight: 700;
 .copyright{
     background-color:rgb(124, 124, 124);
 }
+
+@media  (min-width:320px) and (max-width:850px)
+{
+    .logostyle{
+        position: relative;
+        font-size: 25px;
+        right: 50px;
+    }
+    .reactimg{
+        position: relative;
+        right: 20px;
+    }
+  .heading{
+      font-size: 50px;
+  }
+  .spanheading{
+      font-size: 12px;
+      font-weight: 800;
+  }
+  .welcome{
+      position: relative;
+      top: 90px;
+  }
+  .bannerimg{
+      overflow: hidden;
+      height: 525px;
+      width: 380px;
+  }
+  .externalcard{
+      width: 50px;
+      height: 10px;
+}
+}
+
+@media (min-width:1020px) and (max-width:1370px)
+{
+    .heading{
+        font-size: 72px;
+    }
+    .spanheading{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .welcome{
+        position: relative;
+        top: 60px;
+    }
+    .navlink .px-3{
+        position: relative;
+    right: 150px;
+    }
+    .externalcard{
+        width: 12rem!important;
+        height: 25rem!important;
+    }
+    .cardtitle{
+        font-size: 15px;
+    }
+    .cardbody{
+        font-size: 11px!important;
+        font-weight: 500;
+    }
+}
+@media (min-width:760px) and (max-width:1030px)
+{
+    
+.bannerimg{
+    overflow: hidden;
+    width: 100%;
+}
+.welcome {
+    position: relative;
+    top: 14px;
+}
+.heading{
+    font-size: 49px;
+}
+.spanheading{
+    font-size: 16px;
+    font-weight: 500;
+}
+.navlink .px-3{
+    position: relative;
+right: 150px;
+}
+.externalcard{
+    width: 12rem!important;
+    height: 25rem!important;
+}
+.cardtitle{
+    font-size: 15px;
+}
+.cardbody{
+    font-size: 11px!important;
+    font-weight: 500;
+}
+}
