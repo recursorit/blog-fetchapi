@@ -58,22 +58,22 @@ const Bottom = () => {
                 <div class="col-md-12 py-5">
                     <div class="mb-5 flex-center text-center">
                         <h3 class='text-center'>Follow us on</h3>
-                        <a class="fb-ic ">
+                        <a class="fb-ic " href='http://localhost:3000/'>
                             <i class="fa fa-facebook-f fa-sm text-info mr-md-5 mr-3 "> </i>
                         </a>
-                        <a class="tw-ic">
+                        <a class="tw-ic" href='http://localhost:3000/'>
                             <i class="fa fa-twitter fa-sm text-info mr-md-5 mr-3 "> </i>
                         </a>
-                        <a class="gplus-ic">
+                        <a class="gplus-ic" href='http://localhost:3000/'>
                             <i class="fa fa-google-plus fa-sm text-info mr-md-5 mr-3 "> </i>
                         </a>
-                        <a class="li-ic">
+                        <a class="li-ic" href='http://localhost:3000/'>
                             <i class="fa fa-linkedin fa-sm text-info mr-md-5 mr-3 "> </i>
                         </a>
-                        <a class="ins-ic">
+                        <a class="ins-ic" href='http://localhost:3000/'>
                             <i class="fa fa-instagram fa-sm  text-info mr-md-5 mr-3 "> </i>
                         </a>
-                        <a class="pin-ic">
+                        <a class="pin-ic" href='http://localhost:3000/'>
                             <i class="fa fa-pinterest fa-sm text-info"> </i>
                         </a>
                     </div>
