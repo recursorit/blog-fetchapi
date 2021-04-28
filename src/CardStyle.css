@@ -25,7 +25,7 @@ font-weight: 700;
     background-repeat: no-repeat;
     background-size: cover;
      /* width: 500%; */
-    height: 700px; 
+    height: 700px; ;
     padding-top: 260px;
 }
 
@@ -80,16 +80,19 @@ font-weight: 700;
   }
   .welcome{
       position: relative;
-      top: 90px;
+      top: 50px;
   }
   .bannerimg{
       overflow: hidden;
       height: 525px;
-      width: 380px;
+      width: 411px;
   }
   .externalcard{
       width: 50px;
       height: 10px;
+}
+.mediacard{
+    width: 0;
 }
 }
 
